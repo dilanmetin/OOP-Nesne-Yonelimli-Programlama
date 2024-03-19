@@ -65,6 +65,7 @@ Class’ı kullanabilmek için bir örneğini oluşturmak gereklidir.
 		    Console.ReadLine();
 		   }
 
+![image](https://github.com/dilanmetin/OOP-Nesne-Yonelimli-Programlama/assets/131908432/2e2ac4ea-c0af-4ab6-ab21-1dad0ed02955)
 
 
 <b>Constructor Nedir?</b>
@@ -109,6 +110,8 @@ Constructorlar, parametresiz veya parametreli olabilir. Bu sefer başka bir örn
 		
 		        }
 		    }
+
+![image](https://github.com/dilanmetin/OOP-Nesne-Yonelimli-Programlama/assets/131908432/3f09170f-29bf-4f5f-95c8-ed6d269f517b)
 
 Kişi1 için Parametreli constructor kullandık object oluştururken parantez içinde değerleri girdik.
 Kişi2 için Parametresiz constructor kullandık, varsayılan değerleri bize döndürdü.
@@ -161,6 +164,8 @@ Hemen aşağıda bir örneğe göz atalım. Burada doğrudan “tur” ve “ren
 			    }
 			}
 
+![image](https://github.com/dilanmetin/OOP-Nesne-Yonelimli-Programlama/assets/131908432/83c3e52f-893a-4505-8a17-f847cc70a2c6)
+
 → Görüldüğü gibi biz private tanımlanan değişkenlere erişemedik. Object üzerinden sadece Tur ve Yas’ı çağırabildik.
 
 <b>2)Inheritance (Kalıtım)</b>: Bir sınıfın, başka mevcut bir sınıfın özelliklerini ve davranışlarını miras olarak alması anlamına gelir. Bu yeni sınıf (Child-Türetilmiş) Mevcut sınıfın(Parent — Base) özelliklerini ve davranışlarını yeniden kullanarak yeni bir sınıf oluşturmayı sağlar.
@@ -197,6 +202,8 @@ Miras almak için ” : “ sembolünü kullanıyoruz.
 			        Console.ReadLine();
 			    }
 			}
+
+![image](https://github.com/dilanmetin/OOP-Nesne-Yonelimli-Programlama/assets/131908432/7157d582-ada4-4801-939f-2c031400df39)
 
 → Burada da Serçe sınıfını Kuş sınıfından türettik. Kuş sınıfında olan metotları ve property’leri miras almış olduk. Hem Kuş sınıfının property’leri olan tür ve renk’e ulaşıp tanımladık hem de Serçe’ye özgü metotları tanımlayıp object üzerinden çağırabildik.
 
@@ -250,6 +257,8 @@ Aşağıdaki örnekte de Hayvan classını baz alacağız(inherit edeceğiz) ve 
 			        
 			    }
 			}
+
+![image](https://github.com/dilanmetin/OOP-Nesne-Yonelimli-Programlama/assets/131908432/5d77b614-1d47-4ea8-80bf-cae7cf0a0cf8)
 
 → Bu örnekte Kuş, Köpek, Arı class’larını Hayvan class’ından inherit ettik ve hepsinde aynı Ses() metodunu alt sınıflarda farklı şekilde kullanabildik.
 
@@ -320,6 +329,8 @@ Soyutlama, soyut sınıflar (abstract classes) ve arayüzler (interfaces) kullan
 			}
 
 → Bu örnekte ise Telefon sınıfını abstract olarak işaretledik, metod tanımlamaları yaptık. Daha sonra alt sınıfta bu metodları override ederek içini doldurduk.
+
+![image](https://github.com/dilanmetin/OOP-Nesne-Yonelimli-Programlama/assets/131908432/db3150da-ebbb-4690-a1d1-1942bf95a4a6)
 
 
 Encapsulation, Inheritance, Polymorphism ve Abstraction, nesne yönelimli programlamanın temelidir ve birlikte kullanarak kodlarımızı daha okunabilir, modüler, esnek ve sürdürülebilir olmasını sağlarız.
