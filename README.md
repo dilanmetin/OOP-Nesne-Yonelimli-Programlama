@@ -31,8 +31,8 @@ class Kus
     {
         Console.WriteLine("Cik!");
     }
-
 }
+
 Burada ;
 
 Kuş -> Class
