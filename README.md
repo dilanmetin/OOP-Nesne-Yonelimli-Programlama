@@ -19,8 +19,8 @@ Programımıza, sanki yeni bir dil öğretiyormuşuz gibi, tamamen yabancı bir 
 
 Ayrıca kuşun çeşitli davranışları var: Ötmek, Uçmak gibi.
 
-class Kus
-{
+
+class Kus {
     //Properties
     public string Ad { get; set; } 
     public string Cins { get; set; }
@@ -32,6 +32,7 @@ class Kus
         Console.WriteLine("Cik!");
     }
 }
+
 
 Burada ;
 
